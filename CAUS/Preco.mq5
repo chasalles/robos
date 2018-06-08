@@ -1,21 +1,19 @@
 class Preco{
-  private:
-    double valor;
-    int vezes;
+    private:
+        double valor;
+        int vezes;
     
-  public:
-    void Preco(); // Constructor
-    double getValor();
-    int getVezes();
+    public:
+        Preco(){
+            valor = 0;
+            vezes = 0;
+        }
+        
+        double getValor(){
+            return valor;
+        }
+    
+        int getVezes(){
+            return vezes;
+        }
 };
-
-void Preco::Preco(){
-}
-
-double Preco::getValor(){
-    return valor;
-}
-
-int Preco::getVezes(){
-    return vezes;
-}
